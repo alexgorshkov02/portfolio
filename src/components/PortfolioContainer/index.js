@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
-import HeaderWithImage from './HeaderWithImage';
-import Footer from './pages/Footer';
-import Portfolio from './pages/Portfolio';
-import About from './pages/About';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
+import NavTabs from '../NavTabs';
+import Header from '../pages/Header';
+import Footer from '../pages/Footer';
+import Portfolio from '../pages/Portfolio';
+import About from '../pages/About';
+import Resume from '../pages/Resume';
+import Contact from '../pages/Contact';
 
 import "./PortfolioContainer.css";
 
@@ -31,13 +31,15 @@ function PortfolioContainer() {
   <>
     <div className="page-container">
         <div className="content-wrap">
-            <HeaderWithImage/>
+            <Header/>
             {/* Pass the state value and the setter as props to NavTabs */}
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             {/* Call the renderPage function passing in the currentPage */}
             <div>{renderPage(currentPage)}</div>
+            
         </div>
         <Footer/>
+        {/* <HeaderWithImage/> */}
     </div> 
   </>
   );
