@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
-import Header from './pages/Header';
-import Footer from './pages/Footer';
-import Portfolio from './pages/Portfolio';
-import About from './pages/About';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
+import NavTabs from '../NavTabs';
+import Header from '../pages/Header';
+import Footer from '../pages/Footer';
+import Portfolio from '../pages/Portfolio';
+import About from '../pages/About';
+import Resume from '../pages/Resume';
+import Contact from '../pages/Contact';
 
 import "./PortfolioContainer.css";
 
