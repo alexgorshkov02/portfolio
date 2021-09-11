@@ -1,34 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { Button, Form, Segment } from "semantic-ui-react";
+import "./index.css";
 
 function Contact() {
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const { name, email, message } = formState;
-
-  const [errorMessage, setErrorMessage] = useState('');
-
   const [state, handleSubmit] = useForm("myyllboz");
   if (state.succeeded) {
     return <p>Thanks for submitting!</p>;
   }
-
-  const handleChange = (e) => {
-    if (!e.target.value.length) {
-      setErrorMessage(`${e.target.name} is required.`);
-    } else {
-      setErrorMessage("");
-    }
-
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log("Handle Form", formState);
-    }
-  };
 
   return (
     <Segment>
@@ -40,10 +19,10 @@ function Contact() {
             placeholder="Name"
             id="name"
             type="text"
-            name="name"
-            defaultValue={name}
-            onBlur={handleChange}
+            name="Name"
+            required
           />
+          <ValidationError prefix="Name" field="name" errors={state.errors} />
         </Form.Field>
 
         <Form.Field>
@@ -52,9 +31,8 @@ function Contact() {
             placeholder="Email Address"
             id="email"
             type="email"
-            name="email"
-            defaultValue={email}
-            onBlur={handleChange}
+            name="Email"
+            required
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </Form.Field>
@@ -63,23 +41,14 @@ function Contact() {
           label="Message"
           placeholder="Message"
           id="message"
-          name="message"
-          value={message}
-          onBlur={handleChange}
-        >
-          {/* <label>Message</label> */}
-          {/* <input
-        value="Message"
-        id="message"
-        name="message"
-      /> */}
-          <ValidationError
-            prefix="Message"
-            field="message"
-            errors={state.errors}
-          />
-        </Form.TextArea>
-
+          name="Message"
+          required
+        ></Form.TextArea>
+        <ValidationError
+          prefix="Message"
+          field="message"
+          errors={state.errors}
+        />
         <Button type="submit">Submit</Button>
       </Form>
     </Segment>
