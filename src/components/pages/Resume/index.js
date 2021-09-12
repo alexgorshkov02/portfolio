@@ -1,6 +1,8 @@
 import { Component } from "react";
-import { Header, Segment, List } from "semantic-ui-react";
+import { Header, Segment, List } from "semantic-ui-react";  
 import "./index.css";
+import cvFile from "./AlexanderGorshkov_CV.pdf"
+
 export default class Resume extends Component {
   render() {
     return (
@@ -8,7 +10,7 @@ export default class Resume extends Component {
         <Header as="h1">Resume</Header>
         <Header as="h4">
           Download my{" "}
-          <a href="https://docs.google.com/document/d/11loHJpxjWph0vb23u_CBJaKrcTEHKXxutPsfWrXCBlg/edit">resume</a>
+          <a href={cvFile} download="AlexanderGorshkov_CV.pdf">resume</a>
         </Header>
 
         <Header as="h3">Front-end Proficiences</Header>
