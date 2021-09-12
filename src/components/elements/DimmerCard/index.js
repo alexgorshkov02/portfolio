@@ -8,7 +8,6 @@ export default class DimmerCard extends Component {
   handleHide = () => this.setState({ active: false });
 
   render() {
-    console.log(this.props)
     const { active } = this.state;
     const content = (
       <div>
