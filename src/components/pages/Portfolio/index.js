@@ -7,7 +7,8 @@ const styles = {
   cardCont: {
     display: 'flex',
     justifyContent: 'space-between',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+    gap: '10px'
   }
 }
 

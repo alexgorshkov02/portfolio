@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Image, Dimmer, Header, Icon } from "semantic-ui-react";
-
+ 
 export default class DimmerCard extends Component {
   state = {};
 
@@ -8,7 +8,6 @@ export default class DimmerCard extends Component {
   handleHide = () => this.setState({ active: false });
 
   render() {
-    console.log(this.props)
     const { active } = this.state;
     const content = (
       <div>
@@ -36,7 +35,7 @@ export default class DimmerCard extends Component {
           onMouseEnter={this.handleShow}
           onMouseLeave={this.handleHide}
           size="medium"
-          src="./assets/images/projectPreviews/dealSella.jpg"
+          src={this.props.previewPath}
         />
         </>
     );
