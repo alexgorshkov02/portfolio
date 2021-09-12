@@ -1,0 +1,3 @@
+.ui.form .required.field>label:after {
+    display: none!important
+}
