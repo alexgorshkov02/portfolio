@@ -4,9 +4,6 @@ import DimmerCard from "../../elements/DimmerCard";
 import projects from  "../../../data/data.json"
 
 const styles = {
-  header: {
-    textAlign: 'center'
-  },
   cardCont: {
     display: 'flex',
     justifyContent: 'space-between',
@@ -20,7 +17,7 @@ export default class Portfolio extends Component {
   render() {
     return (
       <Segment>
-        <Header style={styles.header} as="h1">Portfolio</Header>
+        <Header as="h1">Portfolio</Header>
         <Container style={styles.cardCont}>
           {" "}
           {projects.map((project, index) => (
