@@ -11,10 +11,14 @@ export default class Portfolio extends Component {
     const { active } = this.state;
     const content1 = (
       <div>
-        <h2><a href="https://alexgorshkov02.github.io/SteamAPIproject">DealSella</a>
-        <a href="https://github.com/alexgorshkov02/SteamAPIproject">
-              <Icon link inverted name="github" size="big" />
-            </a></h2>
+        <h2>
+          <a href="https://alexgorshkov02.github.io/SteamAPIproject">
+            DealSella
+          </a>
+          <a href="https://github.com/alexgorshkov02/SteamAPIproject">
+            <Icon link inverted name="github" size="big" />
+          </a>
+        </h2>
         <Header as="h4" inverted>
           HTML/CSS/JavaScript
         </Header>
@@ -23,20 +27,23 @@ export default class Portfolio extends Component {
 
     const content2 = (
       <div>
-        <h2><a href="https://alexgorshkov02.github.io/SteamAPIproject">DealSella</a>
-        <a href="https://github.com/alexgorshkov02/SteamAPIproject">
-              <Icon link inverted name="github" size="big" />
-            </a></h2>
+        <h2>
+          <a href="https://alexgorshkov02.github.io/SteamAPIproject">
+            DealSella
+          </a>
+          <a href="https://github.com/alexgorshkov02/SteamAPIproject">
+            <Icon link inverted name="github" size="big" />
+          </a>
+        </h2>
         <Header as="h4" inverted>
           HTML/CSS/JavaScript
         </Header>
       </div>
     );
 
-
     return (
       <Segment>
-        <h1>Portfolio</h1>
+        <Header as="h1">Portfolio</Header>
         <Dimmer.Dimmable
           as={Image}
           dimmed={active}
