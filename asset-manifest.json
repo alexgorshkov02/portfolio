@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fca3fa14.chunk.css",
+    "main.js": "/portfolio/static/js/main.7942c10f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7942c10f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.5321d95e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5321d95e.js.map",
+    "static/css/2.9cc03708.chunk.css": "/portfolio/static/css/2.9cc03708.chunk.css",
+    "static/js/2.d6f424b8.chunk.js": "/portfolio/static/js/2.d6f424b8.chunk.js",
+    "static/js/2.d6f424b8.chunk.js.map": "/portfolio/static/js/2.d6f424b8.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.9cc03708.chunk.css.map": "/portfolio/static/css/2.9cc03708.chunk.css.map",
+    "static/css/main.fca3fa14.chunk.css.map": "/portfolio/static/css/main.fca3fa14.chunk.css.map",
+    "static/js/2.d6f424b8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d6f424b8.chunk.js.LICENSE.txt",
+    "static/media/AlexanderGorshkov_CV.d4c5d8c6.pdf": "/portfolio/static/media/AlexanderGorshkov_CV.d4c5d8c6.pdf",
+    "static/media/semantic.min.css": "/portfolio/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5321d95e.js",
+    "static/css/2.9cc03708.chunk.css",
+    "static/js/2.d6f424b8.chunk.js",
+    "static/css/main.fca3fa14.chunk.css",
+    "static/js/main.7942c10f.chunk.js"
+  ]
+}
