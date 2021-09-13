@@ -1,7 +1,7 @@
 import React from "react";
 import { Segment, Image, Container } from "semantic-ui-react";
 
-const photo = "/assets/images/avatar.jpg";
+const photo = "./assets/images/avatar.jpg";
 
 const About = () => (
   <Segment>
