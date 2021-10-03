@@ -1,10 +1,10 @@
 [
   {
-    "title": "DealSella",
-    "previewPath": "./assets/images/projectPreviews/dealSella.jpg",
-    "linkToGitHub": "https://alexgorshkov02.github.io/SteamAPIproject",
-    "linkToApp": "https://github.com/alexgorshkov02/SteamAPIproject",
-    "technologies": "HTML/CSS/JavaScript"
+    "title": "Flat Earth Society",
+    "previewPath": "./assets/images/projectPreviews/flatEarthSociety.jpg",
+    "linkToGitHub": "https://github.com/alexgorshkov02/flat-earth-society",
+    "linkToApp": "https://flat-earth-society.herokuapp.com",
+    "technologies": "MERN/GraphQL"
   },
   {
     "title": "Olympic News",
@@ -14,18 +14,18 @@
     "technologies": "Node/Express"
   },
   {
+    "title": "DealSella",
+    "previewPath": "./assets/images/projectPreviews/dealSella.jpg",
+    "linkToGitHub": "https://github.com/alexgorshkov02/SteamAPIproject",
+    "linkToApp": "https://alexgorshkov02.github.io/SteamAPIproject",
+    "technologies": "HTML/CSS/JavaScript"
+  },
+  {
     "title": "Weather Dashboard",
     "previewPath": "./assets/images/projectPreviews/weatherDashboard.jpg",
     "linkToGitHub": "https://github.com/alexgorshkov02/weatherDashboard",
     "linkToApp": "https://alexgorshkov02.github.io/weatherDashboard",
     "technologies": "HTML/CSS/JavaScript"
-  },
-  {
-    "title": "Note Taker",
-    "previewPath": "./assets/images/projectPreviews/noteTaker.jpg",
-    "linkToGitHub": "https://github.com/alexgorshkov02/noteTaker",
-    "linkToApp": "https://gentle-lowlands-76861.herokuapp.com",
-    "technologies": "Node JS"
   },
   {
     "title": "Work Day Scheduler",
