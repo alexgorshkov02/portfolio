@@ -8,4 +8,4 @@ This site with my portfolio. It contains the information about me and examples o
 ![Screenshot](./misc/screenshot.jpg?raw=true)
 
 ## Link
-https://alexgorshkov02.github.io/react-portfolio
+https://alexgorshkov02.github.io/portfolio
