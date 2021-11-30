@@ -8,7 +8,7 @@ const Footer = () => (
       <Grid centered relaxed >
         <Grid.Row >
           <Grid.Column>
-          <a href="mailto:alexgorshkov0290@gmail.com">
+          <a href="mailto:alexandergorshkovfj@gmail.com">
               <Icon link inverted name="mail" size="large" />
             </a>
           </Grid.Column>
