@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.fca3fa14.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.7610461b.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.7610461b.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.9f257361.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.9f257361.js.map",
-    "static/css/2.96c1f1e2.chunk.css": "/react-portfolio/static/css/2.96c1f1e2.chunk.css",
-    "static/js/2.d6f424b8.chunk.js": "/react-portfolio/static/js/2.d6f424b8.chunk.js",
-    "static/js/2.d6f424b8.chunk.js.map": "/react-portfolio/static/js/2.d6f424b8.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "static/css/2.96c1f1e2.chunk.css.map": "/react-portfolio/static/css/2.96c1f1e2.chunk.css.map",
-    "static/css/main.fca3fa14.chunk.css.map": "/react-portfolio/static/css/main.fca3fa14.chunk.css.map",
-    "static/js/2.d6f424b8.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.d6f424b8.chunk.js.LICENSE.txt",
-    "static/media/AlexanderGorshkov_CV.d4c5d8c6.pdf": "/react-portfolio/static/media/AlexanderGorshkov_CV.d4c5d8c6.pdf",
-    "static/media/semantic.min.css": "/react-portfolio/static/media/outline-icons.ddae9b1b.woff"
+    "main.css": "/portfolio/static/css/main.4b5da05f.chunk.css",
+    "main.js": "/portfolio/static/js/main.14db24e6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.14db24e6.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
+    "static/css/2.bc1e6791.chunk.css": "/portfolio/static/css/2.bc1e6791.chunk.css",
+    "static/js/2.f037ec9e.chunk.js": "/portfolio/static/js/2.f037ec9e.chunk.js",
+    "static/js/2.f037ec9e.chunk.js.map": "/portfolio/static/js/2.f037ec9e.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.bc1e6791.chunk.css.map": "/portfolio/static/css/2.bc1e6791.chunk.css.map",
+    "static/css/main.4b5da05f.chunk.css.map": "/portfolio/static/css/main.4b5da05f.chunk.css.map",
+    "static/js/2.f037ec9e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f037ec9e.chunk.js.LICENSE.txt",
+    "static/media/AlexanderGorshkov_CV.9ac893b6.pdf": "/portfolio/static/media/AlexanderGorshkov_CV.9ac893b6.pdf",
+    "static/media/semantic.min.css": "/portfolio/static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f257361.js",
-    "static/css/2.96c1f1e2.chunk.css",
-    "static/js/2.d6f424b8.chunk.js",
-    "static/css/main.fca3fa14.chunk.css",
-    "static/js/main.7610461b.chunk.js"
+    "static/js/runtime-main.0bf68c44.js",
+    "static/css/2.bc1e6791.chunk.css",
+    "static/js/2.f037ec9e.chunk.js",
+    "static/css/main.4b5da05f.chunk.css",
+    "static/js/main.14db24e6.chunk.js"
   ]
 }
