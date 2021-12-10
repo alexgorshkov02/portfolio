@@ -16,11 +16,14 @@ export default class DimmerCard extends Component {
           {this.props.title}
           </a>
           <a href={this.props.linkToGitHub}>
-            <Icon link inverted name="github" size="big" />
+            <Icon link inverted name="github"/>
           </a>
         </h2>
         <Header as="h4" inverted>
         {this.props.technologies}
+        </Header>
+        <Header as="h5" inverted>
+        {this.props.about}
         </Header>
       </div>
     );

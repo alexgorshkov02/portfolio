@@ -4,41 +4,47 @@
     "previewPath": "./assets/images/projectPreviews/flatEarthSociety.jpg",
     "linkToGitHub": "https://github.com/alexgorshkov02/flat-earth-society",
     "linkToApp": "https://flat-earth-society.herokuapp.com",
-    "technologies": "MERN/GraphQL"
+    "technologies": "MERN/GraphQL",
+    "about": "This app is a social networking site that allows to share and comment posts online. MERN social media project."
   },
   {
     "title": "Olympic News",
     "previewPath": "./assets/images/projectPreviews/olympicNews.jpg",
     "linkToGitHub": "https://github.com/alexgorshkov02/OlympicNews",
     "linkToApp": "https://olympicnews.herokuapp.com",
-    "technologies": "Node/Express"
+    "technologies": "Node/Express",
+    "about": "Website for all current Olympic News as it unfolds during the Olympic Games."
   },
   {
     "title": "DealSella",
     "previewPath": "./assets/images/projectPreviews/dealSella.jpg",
     "linkToGitHub": "https://github.com/alexgorshkov02/SteamAPIproject",
     "linkToApp": "https://alexgorshkov02.github.io/SteamAPIproject",
-    "technologies": "HTML/CSS/JavaScript"
+    "technologies": "HTML/CSS/JavaScript",
+    "about": "Application for finding the best prices for games."
   },
   {
     "title": "Weather Dashboard",
     "previewPath": "./assets/images/projectPreviews/weatherDashboard.jpg",
     "linkToGitHub": "https://github.com/alexgorshkov02/weatherDashboard",
     "linkToApp": "https://alexgorshkov02.github.io/weatherDashboard",
-    "technologies": "HTML/CSS/JavaScript"
+    "technologies": "HTML/CSS/JavaScript",
+    "about": "Application to get the weather forecast for today and 5 days in advance."
   },
   {
     "title": "Work Day Scheduler",
     "previewPath": "./assets/images/projectPreviews/workDayScheduler.jpg",
     "linkToGitHub": "https://github.com/alexgorshkov02/workDayScheduler",
     "linkToApp": "https://alexgorshkov02.github.io/workDayScheduler",
-    "technologies": "HTML/CSS"
+    "technologies": "HTML/CSS",
+    "about": "Work Day Schedule application is a simple calendar app for scheduling a work day."
   },
   {
     "title": "Code Quiz",
     "previewPath": "./assets/images/projectPreviews/codeQuiz.jpg",
     "linkToGitHub": "https://github.com/alexgorshkov02/codeQuiz",
     "linkToApp": "https://alexgorshkov02.github.io/codeQuiz",
-    "technologies": "HTML/CSS/JavaScript"
+    "technologies": "HTML/CSS/JavaScript",
+    "about": "It is a code quiz game. Each question has 4 answers. Time is limited."
   }
 ]
